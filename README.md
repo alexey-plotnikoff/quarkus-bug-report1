@@ -42,3 +42,7 @@ jakarta.enterprise.context.ContextNotActiveException: RequestScoped context was 
         at java.base/java.util.concurrent.ThreadPerTaskExecutor$TaskRunner.run(ThreadPerTaskExecutor.java:314)
         at java.base/java.lang.VirtualThread.run(VirtualThread.java:309)
 ```
+
+# Issue
+
+Issue available [here](https://github.com/quarkusio/quarkus/issues/43372).
