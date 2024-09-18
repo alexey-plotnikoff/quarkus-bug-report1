@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "am.plotnikov.bugreport1.grpc";
+option java_outer_classname = "HelloWorldProto";
+
+import "google/protobuf/empty.proto";
+package am.plotnikov.bugreport1.grpc;
+
+// The greeting service definition.
+service Greeter {
+    // Sends a greeting
+    rpc SayHello (HelloRequest) returns (google.protobuf.Empty) {}
+}
+
+// The request message containing the user's name.
+message HelloRequest {
+    string name = 1;
+}
