@@ -1,6 +1,6 @@
 # Bug report for Quarkus Team
 
-1. Install `grpcurl`
+1. Install [grpcurl](https://github.com/fullstorydev/grpcurl)
 2. Run project
 ```
 ./mvnw quarkus:dev
